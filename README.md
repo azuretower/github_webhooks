@@ -1,16 +1,13 @@
-add 
+add to your installed apps
 
 ```
-github_webhooks
+'github_webhooks',
 ``` 
 
-to your installed apps
 
-add 
+
+add to your project level urls.py
 
 ```python
 url(r'^', include('github_webhooks.urls'))
 ``` 
-
-to your project level urls.py
-
