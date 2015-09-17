@@ -1,8 +1,16 @@
-This module relies on the file structure that virtualenvwrapper sets up
+add 
 
-add 'github_webhooks' to your installed apps
+```
+github_webhooks
+``` 
 
-add url(r'^', include('github_webhooks.urls')) to your project level urls.py
+to your installed apps
 
-add PROJECT_NAME = '' to your settings.py file, the name should be the file name 
-    inside your projects directory
+add 
+
+```python
+url(r'^', include('github_webhooks.urls'))
+``` 
+
+to your project level urls.py
+
